@@ -1,1 +1,600 @@
-Hello world!
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="ru" style="background-color: #5FCB56; background-image: none; "><![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="ru" style="background-color: #5FCB56; background-image: none; "><![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8" lang="ru" style="background-color: #5FCB56; background-image: none; "> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="ru" style="background-color: #5FCB56; background-image: none; "> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=990">
+        <title>All Airlines — Best Cheap Flights</title>
+    
+    
+    <!--[if lte IE 8]>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400italic&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:700&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif:700italic' rel='stylesheet' type='text/css'>
+    <![endif]-->
+    <script type="text/javascript">
+        WebFontConfig = {
+            google: { families: [ 'Noto+Serif:400,700,400italic:cyrillic-ext,latin' ] }
+        };
+        (function () {
+            var wf = document.createElement('script');
+            wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+            wf.type = 'text/javascript';
+            wf.async = 'true';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+            
+        <style type="text/css">
+        :root {
+            --fallback-font-header: "";
+            --fallback-font-paragraph: "";
+        }
+
+    </style>
+	<link href="//s.siteapi.org/frontend/static/grid_5/css/site-e24d78d83d.css"
+		  media="screen"
+		  rel="stylesheet"
+		  type="text/css"/>
+
+	<link href="//s.siteapi.org/frontend/static/grid_5/css/themes/default/styles-2ca5f23f3b.css"
+		  media="screen"
+		  rel="stylesheet"
+		  type="text/css"/>
+    
+</head>
+<body id="top-body"
+      data-html-version="845039680435609820410"
+      data-ng-controller="BlocksController as blockCtrl"
+      data-ng-init="moduleId = 1"
+      data-lang="ru_RU"
+      class="mainpage "
+      style="background: none;">
+<div id="main-wrapper" style="height: 100%; margin-top: auto;position: relative; ">
+
+<style>
+    #nh-notify-line__unpaid {
+        font-family: Roboto, Arial, sans-serif;
+        font-weight: 400;
+        z-index: 510;
+    }
+    .nh-notify-line__button {
+        font-family: Roboto, Arial, sans-serif;
+        font-weight: 500;
+    }
+    .nh-notify-line {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        z-index: 11;
+        text-align: center;
+        letter-spacing: 0;
+    }
+    .nh-notify-line__top {
+        background: rgba(2, 80, 139, 0.95);
+    }
+    .nh-notify-line__bottom {
+        background: rgba(5, 142, 217, 1);
+    }
+    .nh-notify-line__bottom_hide-small {
+        display: none;
+    }
+    .nh-notify-line__top,
+    .nh-notify-line__bottom {
+        padding: 0 26px;
+    }
+    .nh-notify-line__link {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        color: #fff;
+        text-decoration: none;
+    }
+    .nh-notify-line__link:hover,
+    .nh-notify-line__link:focus {
+        color: #fff;
+    }
+    .nh-notify-line__row {
+        position: relative;
+        max-width: 1152px;
+        margin: 0 auto;
+    }
+    .nh-notify-line__row:before,
+    .nh-notify-line__row:after {
+        content: "";
+        display: table;
+        box-sizing: border-box;
+    }
+    .nh-notify-line__column {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+        padding-left: 16px;
+        padding-right: 16px;
+        box-sizing: border-box;
+    }
+    .nh-notify-line__column_hide-small {
+        display: none;
+    }
+    .nh-notify-line__logo {
+        padding: 9px 0 0;
+    }
+    .nh-notify-line__text {
+        margin: 14px 0 0;
+        font-size: 13px;
+        line-height: 1.385;
+    }
+    .nh-notify-line__button {
+        margin: 8px 0 14px;
+        cursor: pointer;
+        display: inline-block;
+        padding: 13px 37px;
+        background-color: #0CCA4A;
+        border: none;
+        font-size: 12px;
+        line-height: 1.167;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        color: currentColor;
+    }
+    .nh-notify-line__autor {
+        padding: 12px 0;
+        font-size: 12px;
+        line-height: 1.334;
+        color: #F6F6F9;
+    }
+    .nh-notify-line__autor-arrow {
+        padding: 0 0 0 10px;
+    }
+    .nh-notify-line__autor-arrow svg {
+        max-width: 13px;
+        max-height: 10px;
+        fill: currentColor;
+    }
+    .nh-notify-line__close {
+        cursor: pointer;
+        position: absolute;
+        top: 4px;
+        right: -20px;
+        z-index: 12;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .nh-notify-line__close:hover {
+        opacity: 0.7;
+    }
+    .nh-notify-line__close svg {
+        max-width: 24px;
+        max-height: 24px;
+        vertical-align: middle;
+        fill: #058ED9;
+    }
+    @media (min-width: 768px) {
+        .nh-notify-line__top,
+        .nh-notify-line__bottom {
+            padding: 0 24px;
+        }
+        .nh-notify-line__bottom_hide-small {
+            display: block;
+        }
+        .nh-notify-line__column {
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        .nh-notify-line__column_hide-small {
+            display: inline-block;
+        }
+        .nh-notify-line__one {
+            width: 20%;
+            vertical-align: top;
+        }
+        .nh-notify-line__two {
+            width: 50%;
+        }
+        .nh-notify-line__tree {
+            display: inline-block;
+            width: 23%;
+            text-align: left;
+        }
+        .nh-notify-line__logo {
+            display: inline-block;
+            padding: 18px 0;
+            text-align: right;
+        }
+        .nh-notify-line__logo svg {
+            max-width: 124px;
+            max-height: 34px;
+            vertical-align: top;
+        }
+        .nh-notify-line__text {
+            margin: 16px 0;
+            font-size: 17px;
+            line-height: 1.412;
+        }
+        .nh-notify-line__button {
+            display: inline-block;
+            margin: 0;
+            padding: 10px 25px;
+            font-size: 10px;
+            line-height: 1.2;
+        }
+        .nh-notify-line__close {
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 24px;
+            z-index: 12;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+            text-align: center;
+        }
+    }
+    @media (min-width: 960px) {
+        .nh-notify-line__row_full-large {
+            max-width: 100%;
+        }
+        .nh-notify-line__top,
+        .nh-notify-line__bottom {
+            padding: 0;
+        }
+        .nh-notify-line__logo {
+            padding: 14px 0 16px;
+            text-align: right;
+        }
+        .nh-notify-line__logo svg {
+            max-width: 128px;
+            max-height: 35px;
+        }
+        .nh-notify-line__autor {
+            padding: 6px 0;
+            font-size: 12px;
+            line-height: 1.334;
+        }
+        .nh-notify-line__button {
+            margin: 20px 0;
+        }
+        .nh-notify-line__close {
+            right: 12px;
+            top: 20px;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 1152px) {
+        .nh-notify-line__button_hide-text {
+            display: none;
+        }
+    }
+    @media (min-width: 1152px) {
+        .nh-notify-line__column {
+            vertical-align: top;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        .nh-notify-line__one {
+            width: 25%;
+        }
+
+        .nh-notify-line__two {
+            width: 41.667%;
+        }
+
+        .nh-notify-line__tree {
+            width: 32.3%;
+            text-align: center;
+        }
+
+        .nh-notify-line__logo {
+            padding: 9px 0 0;
+            text-align: center;
+        }
+
+        .nh-notify-line__logo svg {
+            max-width: 148px;
+            max-height: 40px;
+        }
+
+        .nh-notify-line__text {
+            margin: 24px -16px;
+            font-size: 18px;
+            line-height: 1.334;
+        }
+
+        .nh-notify-line__button {
+            margin: 16px 0;
+            padding: 13px 37px;
+            font-size: 12px;
+            line-height: 1.167;
+        }
+
+        .nh-notify-line__autor {
+            font-size: 14px;
+            line-height: 1.143;
+        }
+
+        .nh-notify-line__close {
+            top: 20px;
+            right: 20px;
+        }
+    }
+
+    .nh-notify-line__button:hover {
+        opacity: 1;
+        background-color: #0DDA50;
+    }
+</style>
+
+    <div class="bg-plate-head"></div>
+    
+    <div id="wrapper">
+        <div class="bg">
+            <div class="bg_top"></div>
+            <div class="bg_mid"></div>
+            <div class="bg_bottom"></div>
+        </div>
+        <div id="container" class="wrapperBlock">
+            <div id="wrapper-window" style="display:none"></div>
+            <header class="site-header">
+                <div id="header-wrapper">
+                    
+                    <br class="clear"/>
+                </div>
+            </header>
+            <section data-ng-controller="ContentController">
+                 
+
+    <section id="promo" class="  overt bw958 bf_type_3
+onmain  widget on-view widget-block">
+
+                        
+                                            <div class="content-block" id="promo-show" style="height: 500px;">
+                    	
+	<div id="promo-carousel"></div>
+	<script>
+        (function () {
+            if (window.$) {
+                initBanner();
+            } else {
+                document.addEventListener('DOMContentLoaded', function () {
+                    initBanner();
+                });
+            }
+            function initBanner() {
+                window.BannerShow = function(){
+                    var carousel = $("#promo-carousel").agile_carousel({
+                        carousel_data:[{"content":"                \n<div class=\"slide-inner\" style=\"background:url('\/\/i.siteapi.org\/uAQRAe7BeTXSHT3o6zxP2yedh5E=\/0x254:1024x788\/fit-in\/958x500\/759e0286f1e4fb1.s.siteapi.org\/img\/8kdezcetqxc80wg8scowwgw8kwwws8') no-repeat center center;\">\n    <\/div>\n"}],
+                        carousel_outer_height: 500   ,
+                        carousel_height: 500,
+                        slide_height: 500,
+                        carousel_outer_width: 958,
+                        slide_width: 958,
+                        transition_type: "slide",
+                        continuous_scrolling: true,
+                                                timer: 8000
+                    });
+                };
+
+                Visitor.preloadBannerImages(["\/\/"]);
+            }
+        }());
+	</script>
+ 
+
+                </div>
+            
+            
+            
+    </section>
+
+                    <section  data-widget-desc
+              data-widget-container
+              data-widget-id="6"
+              data-widget-sort=""
+              data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=3&amp;widget_id=6"
+              data-region=""
+              data-widget-type="3"
+              class=" widget block-6">
+
+                <section id="desc"
+         data-widget-content
+         class="onmain widget on-view widget-block -nt-widget">
+    <header class="infoPlate ">
+        <h1>Support Information</h1>
+    </header>
+        <div class="content-block" id="desc-show" data-ng-show="$ctrl.showContent()">
+                    <div class="user-inner">
+                                    <div class="mr-block"><div class="mrb-inline-group_top mrb-row mrb-row-index-0"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">Where is my booking confirmation?</span></p>
+<p>For any questions about your booking confirmation, it&rsquo;s always best to speak to the travel provider (airline or travel agent) directly.</p>
+<p>Here at All Airlines, since we are a travel search engine, we don&rsquo;t have access to your booking confirmation or any of your booking details. Once you&rsquo;ve chosen your flights, we pass you through to your chosen airline or travel agent where you make your booking directly. We&rsquo;re therefore unable to send you your booking confirmation.</p>
+<p>Can&rsquo;t remember who you booked with?</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 1)</span><span>&nbsp;</span>Check your email for a booking confirmation &ndash; it should have been sent when you made your booking.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 2)</span><span>&nbsp;</span>It&rsquo;s worth checking your junk or spam email if you can&rsquo;t find it.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 3)</span><span>&nbsp;</span>If you can&rsquo;t find your confirmation and you&rsquo;re still not sure, the best thing to do is to check your bank statement, which should show you the airline or travel agent&rsquo;s name next to any charge.</p>
+<p>Once you have a name, you can use the search below to find the travel provider&rsquo;s contact details. If you&rsquo;ve followed these steps and either can&rsquo;t reach the provider or still need our help, feel free to get in touch. Please remember to provide as much detail as possible about your flights and who you booked with. We won't be able to send you your confirmation, but will do our best to help out in any way we can.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-1"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">How can I pay?</span></p>
+<p><span>All Airlines</span> is a travel search engine, and we don't handle bookings or payments at all. When you find the travel arrangements that suit you, you will be transferred to the service provider&rsquo;s site to complete your booking. Once there, you&rsquo;ll be able to see all the different payment options they offer.</p>
+<p>For this reason, we recommend that you get in touch with the airline, travel agent or travel provider directly if you have any questions about how to pay.&nbsp;</p>
+<p>For security reasons, when you buy a flight ticket you may sometimes be asked for further identification or documents before your booking can be processed. If you have any concerns about this, please contact your provider.</p>
+<p>The search box below can help you find the contact details for the travel provider you booked with.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-2"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">I think I have been overcharged</span></p>
+<p>Prices on <span>All Airlines</span> always include an estimate of all taxes and charges that must be paid.</p>
+<p>When we transfer you to the airline or travel agent website to complete your booking, all flight details including prices will be updated and displayed. At this stage, we recommend that you check this information carefully before you confirm and pay for your booking. The final price you pay for your tickets may change because of additional options offered by the provider, such as luggage or travel insurance (although these should always be optional).</p>
+<p>A note about card fees. Airlines and travel agents offer a free payment option (usually it&rsquo;s the most popular card in your country) but they might charge fees for other payment methods. Because you have at least one option to avoid these fees, we don't include them in our prices. If you feel like you have been overcharged, we recommend that you contact the provider you booked with &ndash; they are the best people to help you, the search box below can help you find the contact details for the travel provider you booked with.</p>
+<p>If you have already contacted them and you still need our help, please get in touch via the contact&nbsp;us&nbsp;button at the bottom of the screen.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-3"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">Who should I contact about my booking?</span></p>
+<p><span>All Airlines</span> is a travel search engine. We help you plan your trip but we don't take bookings or payments ourselves. Instead, we pass you through to your chosen travel provider (airline or travel agent) and you make your booking directly with them.</p>
+<p>This means we don&rsquo;t have access to your booking information. If your enquiry is about any of the following, we would recommend contacting the travel provider directly:</p>
+<p>Booking confirmations<br />Changes to a booking you&rsquo;ve already made<br />Cancellations and refunds<br />Payment, luggage, seating or visa questions<br />Problems completing a booking<br />Airline or airport-related information<br />Can&rsquo;t remember who you booked with?</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 1)</span><span>&nbsp;</span>Check your email for a booking confirmation &ndash; it should have been sent when you made your booking.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 2)</span><span>&nbsp;</span>It&rsquo;s worth checking your junk or spam email if you can&rsquo;t find it.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 3)</span><span>&nbsp;</span>If you can&rsquo;t find your confirmation and you&rsquo;re still not sure, the best thing to do is to check your bank statement, which should show you the airline or travel agent&rsquo;s name next to any charge.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-4"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">My card has been charged but I don&rsquo;t have a booking confirmation</span></p>
+<p>As a travel search engine,<span> All Airlines</span><span>&nbsp;</span>doesn&rsquo;t handle bookings or payments directly - so we don&rsquo;t have access to individuals&rsquo; booking information. Instead you are transferred to your chosen airline&nbsp;or travel agent, and your booking is made with them directly.</p>
+<p>If your card&rsquo;s been charged but you haven&rsquo;t received your confirmation, sometimes there can be a delay on confirmations coming through, or there could be a technical reason why you haven&rsquo;t received it.</p>
+<p>If&nbsp;you still can't find it, we&nbsp;would recommend contacting the airline or travel agent that you attempted to book with&nbsp;to ask if they can confirm your booking &ndash; they will be best placed to clarify the situation as quickly as possible.</p>
+<p>Can&rsquo;t remember who you booked with?</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 1)</span><span>&nbsp;</span>Check your email for a booking confirmation &ndash; it should have been sent when you made your booking.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 2)</span><span>&nbsp;</span>It&rsquo;s worth checking your junk or spam email if you can&rsquo;t find it.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 3)</span><span>&nbsp;</span>If you can&rsquo;t find your confirmation and you&rsquo;re still not sure, the best thing to do is to check your bank statement, which should show you the airline or travel agent&rsquo;s name next to any charge.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-5"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">How do I change or cancel my booking?</span></p>
+<p>If you would like to change or cancel your booking then we recommend that you contact the travel provider (airline or travel agent) agent that you completed your booking with.</p>
+<p>As a travel search engine, <span>All Airlines</span> doesn&rsquo;t take your booking or payment ourselves. Instead, we pass you through to your chosen airline or travel agent where you make your booking directly. We therefore don&rsquo;t have access or visibility to any of your booking information. Depending on the type of ticket you&rsquo;ve booked, there may be different options for changes or cancellations, the travel provider will be best placed to advise on these.</p>
+<p>Can&rsquo;t remember who you booked with?</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 1)</span>&nbsp;Check your email for a booking confirmation &ndash; it should have been sent when you made your booking.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 2)</span>&nbsp;It&rsquo;s worth checking your junk or spam email if you can&rsquo;t find it.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 3)</span>&nbsp;If you can&rsquo;t find your confirmation and you&rsquo;re still not sure, the best thing to do is to check your bank statement, which should show you the airline or travel agent&rsquo;s name next to any charge.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-6"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">My booking has been cancelled</span></p>
+<p>We&rsquo;re sorry to hear that! Unfortunately, cancelled bookings are beyond <span>All Airlines</span> control because we are a travel search engine, rather than a booking service. Cancellations usually occasionally occur when the airline or travel agent is unable to fulfil a ticket at their advertised price, or if the airline makes a decision to cancel that flight or route.</p>
+<p>If this happens, the airline or travel agent will give you the option to purchase a ticket at the new price or refund your money in full, they should also indicate when the refund will arrive in your bank account. We would recommend speaking to your travel provider directly with regards to the options that might be available.</p>
+<p>The search box below can help you find the contact details for the travel provider you booked with.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-7"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">I booked the wrong dates / times</span></p>
+<p>If you have found that you have booked the wrong dates or times, please contact the airline or travel agent that you booked your flight with as they will be able to help you change your flights to the intended dates or times.</p>
+<p>The search box below can help you find the contact details for the travel provider you booked with.</p>
+<p>You can search flexible or specific dates on<span> All Airlines</span><span>&nbsp;</span>to find your preferred flight, and when you select a flight on <span>All Airlines</span> you are transferred to the website where you will make and pay for your booking. Once you are redirected to the airline or travel agent website, you might be required to select dates again, depending on the website. In all cases, you will be shown the flight details of your selection and&nbsp;you are required before confirming payment to state that you have checked all details and agreed to the terms and conditions. We strongly recommend that you always check this information carefully, as travel information can be subject to change.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-8"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">I entered the wrong email address</span></p>
+<p>Please contact the airline or travel agent you booked with as <span>All Airlines</span> does not have access to bookings made with airlines&nbsp;or travel agents.</p>
+<p>If you can't remember who you booked with, you can check your credit card statement for a company name.</p>
+<p>The search box below can help you find the contact details for the travel provider you booked with.</p>
+</div>
+</div></div></div><div class="mrb-inline-group_top mrb-row mrb-row-index-9"><div class="mrb-col mrb-col-index-0 mrb-small-18"><div class="-gd-content mrb-block-index-0"><div class="user-inner">
+    <p><span style="font-weight: bold; font-weight: bold;">Changes, cancellation and refunds</span></p>
+<p>For changes, cancellations or refunds, we recommend that you contact the travel provider (airline or travel agent) agent that you completed your booking with.</p>
+<p>As a travel search engine,<span> All Airlines</span><span>&nbsp;</span>doesn&rsquo;t take your booking or payment ourselves. Instead, we pass you through to your chosen airline or travel agent where you make your booking directly. We therefore don&rsquo;t have access or visibility to any of your booking information. Depending on the type of ticket you&rsquo;ve booked, there may be different options for changes, cancellations and refunds, and the travel provider will be best placed to advise on these.</p>
+<p>Can&rsquo;t remember who you booked with?</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 1)</span><span>&nbsp;</span>Check your email for a booking confirmation &ndash; it should have been sent when you made your booking.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 2)</span><span>&nbsp;</span>It&rsquo;s worth checking your junk or spam email if you can&rsquo;t find it.</p>
+<p><span style="font-weight: bold; font-weight: bold;">Step 3)</span><span>&nbsp;</span>If you can&rsquo;t find your confirmation and you&rsquo;re still not sure, the best thing to do is to check your bank statement, which should show you the airline or travel agent&rsquo;s name next to any charge.</p>
+</div>
+</div></div></div></div>
+                            </div>
+            </div>
+</section>
+
+                    <div data-ng-if="$ctrl.loaded" data-ui-view="desc-view"></div>
+
+                    </section>
+
+                    <section  data-widget-lead-form
+              data-widget-container
+              data-widget-id="10"
+              data-widget-sort=""
+              data-widget-url="/widget?route=mainPage&amp;on_main=1&amp;type=41&amp;widget_id=10"
+              data-region=""
+              data-widget-type="41"
+              class=" widget block-10">
+
+                <section data-widget-content
+         class="-nt-widget -widget-lead-form widget">
+        <div class="lead-form widget widget-block light"
+         data-ng-show="$ctrl.showContent()"
+                    style="
+                        background-position: top left !important;
+                background-repeat: no-repeat !important;
+                                                                "
+            >
+        <div class="-text-center content-block" data-ng-non-bindable>
+            <header>
+                Support
+            </header>
+                            <div class="description">
+                    <p><span>Drop us an email and we'll contact you shortly!</span></p>
+                </div>
+                        <form class="dynamic-form dynamic-form-3 -text-center" data-type="3"
+                  method="POST" action="https://allairlines.nethouse.ru/mailer/sendmessage">
+                <input type="hidden" name="formType" value="3" id="formType">
+                <input type="text" name="lastname" value="" id="lastname">
+                                                        <div class="inline-block field ">                <input type="text"
+               name="fio"
+               id="fio"
+               maxlength="100"
+               class="dynamic-form-required dynamic-form-fio dynamic-form-text -col-12"
+               placeholder="Name">
+    </div>
+                                                        <div class="inline-block field ">                <input type="text"
+               name="phone"
+               id="phone"
+               maxlength="100"
+               class="dynamic-form-required dynamic-form-phone dynamic-form-text -col-12"
+               placeholder="Phone">
+    </div>
+                                                        <div class="inline-block field ">                <input type="text"
+               name="email"
+               id="email"
+               maxlength="100"
+               class=" dynamic-form-email dynamic-form-text -col-12"
+               placeholder="E-mail">
+    </div>
+                            </form>
+            <a href="#lead-form-send">
+                <button class="dynamic-form-button-3 lead-form-btn">Help me!</button>
+            </a>
+        </div>
+    </div>
+</section>
+
+                    <div data-ng-if="$ctrl.loaded" data-ui-view="lead-form-view"></div>
+
+                    </section>
+
+                
+                <div class="sub-container">
+                    <section id="content">
+                        
+                    </section>
+                    <section id="sidebar" data-ng-controller="SidebarController">
+                                                                                            </section>
+                </div>
+            </section>
+        </div>
+
+    
+
+    </div>
+
+    <div id="for-explain"></div>
+
+    <div id="up-link">
+        <div class="inner-lnk"><a class="blue underline" href="#top-body">Наверх</a><i></i>
+        </div>
+    </div>
+</div>
+<script src="/js/lang/ru_RU/translate.js?v=845039680435609820410"></script>
+<script type="text/javascript" src="//s.siteapi.org/frontend/static/grid_5/js/vendor-0519471bd1.min.js"></script>
+<script type="text/javascript" src="//s.siteapi.org/frontend/static/grid_5/js/scripts-6997bbd3d1.js"></script>
+
+
+</body>
+</html>
+
+
